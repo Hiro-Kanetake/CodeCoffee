@@ -20,5 +20,3 @@ const arrayFlatten = (arr) => {
   // Return a result array which has already been flattened
   return result;
 };
-
-// Secret Code : E5B598CE
