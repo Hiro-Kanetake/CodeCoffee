@@ -20,8 +20,8 @@
 // };
 
 const alphaCountBack = (letter) => {
-  const alpha = Array.from(Array(26)).map((_, i) => i + 65);
-  const alphabets = alpha.map((x) => String.fromCharCode(x));
+  const UTF16_unitCodes = Array.from(Array(26)).map((_, i) => i + 65);
+  const alphabets = UTF16_unitCodes.map((x) => String.fromCharCode(x));
   let result = "";
 
   const countBackward = (alphabet) => {
